@@ -8,6 +8,7 @@ MYSQL_VERSION=5.7 # the container version you want to use
 MYSQL_ROOT_PASSWORD=YourRootPasswordHere
 MYSQL_USER=YourRegularUserNameHere
 MYSQL_PASS=YourRegularUserPasswordHere
+MYSQL_DATABASE=YourDatabaseNameHere
 ```
 
 Run ```docker-compose up``` to start the container.
